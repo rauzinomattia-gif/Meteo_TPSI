@@ -1,11 +1,16 @@
 <!DOCTYPE html>   
 <html lang="it">
-<head>
-    <title>Meteo</title>
-</head>
-<body>
-    <h1>Meteo</h1>
-    <input type="text">
-    <button></button>
-    <div></div>
+    <head>
+    <meta charset="UTF-8" />
+    <title>Meteo App</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Meteo</h1>
+        <div class="search-wrap">
+            <input type="text" id="inputCitta" placeholder="Es. Roma, Tokyo, New York..." autocomplete="off"/>
+            <button id="btnCerca">Cerca</button>
+        </div>
+        <div id="risultato"></div>
+    </body>
 </html>
